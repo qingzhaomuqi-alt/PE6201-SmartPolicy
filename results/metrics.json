@@ -1,0 +1,53 @@
+{
+  "policy_version": "2026-10-expanded-demo",
+  "policy_sha256": "09af4beac972892704eed55e737a477650fab464101856ae85d083c3abf71849",
+  "question_sha256": "dca102a263eda855f831c467bf756f91ae4b41e676660eef6fc6b1b04d41d4c4",
+  "scope": "Seen regression data with authored coverage rules; not independent evaluation, full answer accuracy or LLM faithfulness.",
+  "development_decisions": {
+    "numerator": 14,
+    "denominator": 15,
+    "rate": 0.933333
+  },
+  "evaluation": {
+    "source_selection": {
+      "numerator": 16,
+      "denominator": 17,
+      "rate": 0.941176
+    },
+    "decision_accuracy": {
+      "numerator": 28,
+      "denominator": 30,
+      "rate": 0.933333
+    },
+    "abstention_recall": {
+      "numerator": 12,
+      "denominator": 13,
+      "rate": 0.923077
+    },
+    "abstention_precision": {
+      "numerator": 12,
+      "denominator": 12,
+      "rate": 1
+    },
+    "answered_source_precision": {
+      "numerator": 16,
+      "denominator": 18,
+      "rate": 0.888889
+    },
+    "coverage": {
+      "numerator": 18,
+      "denominator": 30,
+      "rate": 0.6
+    }
+  },
+  "targets": {
+    "source_selection": 0.85,
+    "abstention_recall": 0.9
+  },
+  "api_tested": false,
+  "failures": [
+    "Q11",
+    "Q22",
+    "Q40"
+  ]
+}
