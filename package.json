@@ -1,0 +1,1 @@
+{"name":"smartpolicy-rag","private":true,"type":"module","scripts":{"build":"node scripts/build.mjs","start":"node scripts/serve.mjs","test":"node --test tests/rag.test.mjs"},"engines":{"node":">=20"}}
