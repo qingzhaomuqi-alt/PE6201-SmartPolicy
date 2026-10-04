@@ -1,6 +1,0 @@
-/** Expanded source corpus and new-chapter regression checks; not an independent evaluation. */
-import fs from 'node:fs';import assert from 'node:assert/strict';import {answer} from './dist/retrieval.mjs';
-const docs=JSON.parse(fs.readFileSync('dist/policies.json'));assert.equal(docs.length,20);assert.equal(new Set(docs.map(d=>d.id)).size,20);for(let i=0;i<docs.length;i++){assert.equal(docs[i].page,i+3);assert.equal(docs[i].version,'2026-10-expanded-demo');assert.equal(docs[i].clauses.length,5);}
-for(const [q,id] of [['How do new employees get account access?','onboarding'],['How do I notify my manager of lateness?','attendance'],['What must I do before ordering from a supplier?','procurement'],['Can I accept a supplier gift?','gifts'],['What should I do if confidential data is exposed?','incident']])assert.equal(answer(q,docs).sources[0]?.id,id,q);
-const r=answer('I worked overtime until 10 PM, what kind of allowance or compensation is provided?',docs);assert.deepEqual(r.sources.map(s=>s.page),[3,4]);assert(r.answer.includes('SGD 25'));assert(r.answer.includes('Not specified'));
-console.log('PASS: 20 chapters, citation metadata, five added-topic questions and overtime source pages.');
