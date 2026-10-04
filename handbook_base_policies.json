@@ -1,0 +1,122 @@
+[
+  {
+    "id": "meal",
+    "title": "Overtime meals",
+    "page": 1,
+    "version": "2026-09-demo",
+    "active": true,
+    "text": "Employees working after 20:00 with prior manager approval may claim one evening meal up to SGD 25. An itemised receipt is required. Alcohol is excluded. Claims must be filed within 30 calendar days."
+  },
+  {
+    "id": "taxi",
+    "title": "Late night transport",
+    "page": 2,
+    "version": "2026-09-demo",
+    "active": true,
+    "text": "After 22:00, employees may claim a taxi from the office to their home if overtime was approved. Keep the receipt. Personal detours are excluded. There is no late transport entitlement before 22:00."
+  },
+  {
+    "id": "hotel",
+    "title": "Business travel hotels",
+    "page": 3,
+    "version": "2026-09-demo",
+    "active": true,
+    "text": "Approved business travel accommodation is capped at SGD 180 per night before tax. Any higher rate requires written Finance approval before booking. A hotel invoice is required."
+  },
+  {
+    "id": "flight",
+    "title": "Business travel flights",
+    "page": 4,
+    "version": "2026-09-demo",
+    "active": true,
+    "text": "Business travel flights must be booked in economy class through the approved travel portal. Business class requires written director approval before booking. Personal upgrades are not reimbursable."
+  },
+  {
+    "id": "claim",
+    "title": "Expense claim deadlines",
+    "page": 5,
+    "version": "2026-09-demo",
+    "active": true,
+    "text": "Submit expense claims within 30 calendar days of the expense date. Attach an itemised receipt and manager approval. Missing receipts require a signed declaration and Finance review; approval is not guaranteed."
+  },
+  {
+    "id": "annual",
+    "title": "Annual leave",
+    "page": 6,
+    "version": "2026-09-demo",
+    "active": true,
+    "text": "Full time employees receive 18 days of annual leave per calendar year. Apply through the HR portal at least 7 calendar days before planned leave. Manager approval is required."
+  },
+  {
+    "id": "sick",
+    "title": "Sick leave",
+    "page": 7,
+    "version": "2026-09-demo",
+    "active": true,
+    "text": "Full time employees receive 14 days of outpatient sick leave per calendar year. Notify the manager as soon as possible and upload a medical certificate to the HR portal within 2 working days."
+  },
+  {
+    "id": "remote",
+    "title": "Remote work",
+    "page": 8,
+    "version": "2026-09-demo",
+    "active": true,
+    "text": "Eligible employees may work remotely up to 2 days per week with manager approval. Client facing duties may require office attendance. Work from overseas requires HR and security approval in advance."
+  },
+  {
+    "id": "probation",
+    "title": "Probation",
+    "page": 9,
+    "version": "2026-09-demo",
+    "active": true,
+    "text": "The standard probation period is 3 months. A manager may extend it once by up to 3 months with a written reason. HR communicates confirmation in writing."
+  },
+  {
+    "id": "training",
+    "title": "Training reimbursement",
+    "page": 10,
+    "version": "2026-09-demo",
+    "active": true,
+    "text": "Role related training may be reimbursed up to SGD 500 per calendar year after prior manager approval. Submit the course invoice and completion evidence. Personal interest courses are excluded."
+  },
+  {
+    "id": "equipment",
+    "title": "Office equipment",
+    "page": 11,
+    "version": "2026-09-demo",
+    "active": true,
+    "text": "Company laptops are issued by IT. Personal purchases of laptops or monitors are not reimbursed without written IT and Finance approval before purchase. Faulty equipment should be reported to the IT helpdesk."
+  },
+  {
+    "id": "password",
+    "title": "Account security",
+    "page": 12,
+    "version": "2026-09-demo",
+    "active": true,
+    "text": "Use multi factor authentication for company accounts. Never share passwords. Report a suspected compromised account to the IT helpdesk immediately. HR cannot request a password."
+  },
+  {
+    "id": "harassment",
+    "title": "Workplace concerns",
+    "page": 13,
+    "version": "2026-09-demo",
+    "active": true,
+    "text": "Employees may report workplace harassment confidentially to the HR case team. Do not include another person's sensitive information in this demo. This assistant does not investigate or adjudicate complaints."
+  },
+  {
+    "id": "conflict",
+    "title": "Policy conflicts",
+    "page": 14,
+    "version": "2026-09-demo",
+    "active": true,
+    "text": "Only the active policy version applies. If current policy clauses conflict or an exception is not documented, refer the case to HR or Finance. This assistant cannot approve claims or override policy."
+  },
+  {
+    "id": "privacy",
+    "title": "Data privacy",
+    "page": 15,
+    "version": "2026-09-demo",
+    "active": true,
+    "text": "This demonstration uses fictional policies only. Do not enter personal records, salaries, bank account numbers or confidential company information. Questions are not saved by the application. It has no authentication or production access control."
+  }
+]
